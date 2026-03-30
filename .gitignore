@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.local
+.env.production
+.env.*.local
+
+# GCP / Firebase credentials
+*.pem
+*.key
+*-adminsdk-*.json
+credentials.json
+service_account.json
+*-firebase-adminsdk-*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
